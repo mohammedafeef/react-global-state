@@ -1,11 +1,13 @@
-import './App.css'
+import { ToDoInput } from './components/ToDoInput'
+import { ToDoList } from './components/ToDoList'
 
 function App() {
 
   return (
- <div>
-
- </div>
+    <div className="flex w-screen h-screen items-center flex-col pt-4 bg-[#DED0B6]">
+      <ToDoInput/>
+      <ToDoList/>
+    </div>
   )
 }
 
